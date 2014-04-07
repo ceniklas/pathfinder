@@ -5,7 +5,6 @@ public class main
     	GameArea g = new GameArea(60, 41);
     	g.print();
 
-    	
 		//START TIMER
 		long startTime = System.nanoTime();
 
