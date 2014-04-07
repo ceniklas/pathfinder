@@ -36,8 +36,8 @@ public class PathFinderNode
 
 		for (int i = 0; i < thePathSoFarX.size(); i++) 
 		{
-			thePathX.addElement(thePathSoFarX.get(i));
-			thePathY.addElement(thePathSoFarY.get(i));
+			thePathX.addElement((Integer) thePathSoFarX.get(i));
+			thePathY.addElement((Integer) thePathSoFarY.get(i));
 		}
 
 		movesMade = movesMadeSoFar;
