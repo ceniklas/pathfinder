@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class PathFinder
 {	
 	public Vector<PathFinderNode>openList = new Vector<PathFinderNode>();
@@ -67,7 +68,7 @@ public class PathFinder
     {
         for (int i = correctPath.thePathX.size()-1; i >= 0; i--) 
         {
-            battleArea[(int)correctPath.thePathX.get(i)][(int)correctPath.thePathY.get(i)] = GameArea.walkerTile;
+            //battleArea[Integer.correctPath.thePathX.get(i)][Integer.correctPath.thePathY.get(i)] = GameArea.walkerTile;
         }
     }
     

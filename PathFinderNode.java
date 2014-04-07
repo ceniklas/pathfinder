@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class PathFinderNode
 {
 	public Vector thePathX = new Vector();

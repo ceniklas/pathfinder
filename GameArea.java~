@@ -153,6 +153,7 @@ public class GameArea
 		{
 			for(int x = 0; x < sizeX; x++)
 			{
+				//System.out.print( ((Vector)(battleArea.get(y))).get(x) );
 				System.out.print(battleArea[x][y]);
 			}
 			System.out.println("|");

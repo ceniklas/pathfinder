@@ -1,31 +1,22 @@
-/**
- * @(#)Tower_Defence.java
- *
- *
- * @author
- * @version 1.00 2013/5/16
- */
 import javax.swing.*;
 import java.util.*;
-
-//onödig class än så länge!
 
 public class Tower 
 {
 	public int[] coords = {0,0};
     
 	
-    public Tower()
+    /*public Tower()
     {
     	//while(!insert());
-    }
+    }*/
 
     boolean towerBuilt = false;
     int x = 0;
     int y = 0;
     String input;
 
-    while(!towerBuilt)
+    /*while(!towerBuilt)
     { 
         input = JOptionPane.showInputDialog("X-Coordinate?");
         y = Integer.parseInt(input);
@@ -47,7 +38,7 @@ public class Tower
         {
             towerBuilt = false;
         }
-    }
+    }*/
     /*
     private boolean insert()
     {
