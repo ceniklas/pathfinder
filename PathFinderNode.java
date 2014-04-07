@@ -2,14 +2,20 @@ import java.util.*;
 
 public class PathFinderNode
 {
-	public Vector thePathX = new Vector();
-	public Vector thePathY = new Vector(); 
+	public Vector<Integer> thePathX = new Vector<Integer>();
+	public Vector<Integer> thePathY = new Vector<Integer>(); 
 	public int thisX, thisY;
-	
 	public int fValue; 
 	public int movesMade;
 	public int manHattanValue;
 	
+	public int getX(int i){
+		return thePathX.get(i);
+	}
+	public int getY(int i){
+		return thePathY.get(i);
+	}
+
 	PathFinderNode()
 	{
 		thisX = 0;

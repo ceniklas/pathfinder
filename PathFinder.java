@@ -68,7 +68,11 @@ public class PathFinder
     {
         for (int i = correctPath.thePathX.size()-1; i >= 0; i--) 
         {
-            //battleArea[Integer.correctPath.thePathX.get(i)][Integer.correctPath.thePathY.get(i)] = GameArea.walkerTile;
+            //int x = correctPath.thePathX.get(i);
+            int x = correctPath.getX(i);
+            //int y = correctPath.thePathY.get(i);
+            int y = correctPath.getY(i);
+            battleArea[x][y] = GameArea.walkerTile;
         }
     }
     
