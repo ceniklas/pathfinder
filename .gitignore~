@@ -1,5 +1,2 @@
 # Java class files
 *.class
-
-# built files
-build/
